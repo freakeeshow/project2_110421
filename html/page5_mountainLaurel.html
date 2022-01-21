@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mountain Laurel</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <style>
+        body {
+            background: url("../media/backgrounds/merrick5.jpg") no-repeat fixed;
+            background-size: cover;
+        }
+   </style>
+          <script>
+            window.onload = function() {
+            var n = Math.floor(Math.random() * 2) + 1;
+            
+            var w1 = Math.floor(Math.random() * 800) + 10;
+            var h1 = Math.floor(Math.random() * 800) + 10;
+            var w2 = Math.floor(Math.random() * 800) + 10;
+            var h2 = Math.floor(Math.random() * 800) + 10;
+            var w3 = Math.floor(Math.random() * 800) + 10;
+            var h3 = Math.floor(Math.random() * 800) + 10;
+            var w4 = Math.floor(Math.random() * 800) + 10;
+            var h4 = Math.floor(Math.random() * 800) + 10;
+            var w5 = Math.floor(Math.random() * 800) + 10;
+            var h5 = Math.floor(Math.random() * 800) + 10;
+            var w6 = Math.floor(Math.random() * 800) + 10;
+            var h6 = Math.floor(Math.random() * 800) + 10;
+            var w1 = Math.floor(Math.random() * 800) + 10;
+                             
+            document.getElementById("goldenNorthernBumblebee").innerHTML = "<img src='../media/drawings/goldenNorthernBumblebee/goldenNorthernBumblebee_" + n + ".png' width='" + w1 + " height='" + h1 + "/>";
+
+            document.getElementById("mourningDove").innerHTML = "<img src='../media/drawings/mourningDove/mourningDove_" + n + ".png' width='" + w2 + " height='" + h2 + "/>";
+
+            document.getElementById("dogDayCicada").innerHTML = "<img src='../media/drawings/dogDayCicada/dogDayCicada_" + n + ".png' width='" + w3 + " height='" + h3 + "/>";
+
+            document.getElementById("dustedSkipper").innerHTML = "<img src='../media/drawings/dustedSkipper/dustedSkipper_" + n + ".png' width='" + w4 + " height='" + h4 + "/>";
+
+            document.getElementById("northernCardinal").innerHTML = "<img src='../media/drawings/northernCardinal/northernCardinal_" + n + ".png' width='" + w5 + " height='" + h5 + "/>";
+    		}
+    		
+        </script>
+        
+</head>
+<body id="body">
+    <div id="wrapper">
+
+        <!--anchor-->
+        <div id="anchor">
+            <a href="#" onclick="history.back()">
+                <figure>
+				    <img src="../media/drawings/mountainLaurel/mountainLaurel_1.png" alt="mountain laurel">
+    				    <figcaption>
+                            gets eaten by the
+    				    </figcaption>
+    		    </figure>
+            </a>
+        </div>
+
+        <!--images-->
+        <a id="goldenNorthernBumblebee" href="page13_goldenNorthernBumblebee.html"></a>
+
+        <a id="mourningDove" href="page7_mourningDove.html"></a>
+
+        <a id="dogDayCicada" href="page9_dogDayCicada.html"></a>
+
+        <a id="dustedSkipper" href="page12_dustedSkipper.html"></a>
+
+        <a id="northernCardinal" href="page6_northernCardinal.html"></a>
+        
+        <img onclick="newLink()" id="graySquirrel" src="../media/drawings/graySquirrel/graySquirrel_1.png"></img>
+        
+        	<script>
+        		var x = 50;
+        		function newLink() {
+    				document.getElementById("graySquirrel").style.right = "50px";
+    			}
+    		</script>
+        
+        <!--narrative-->
+        <div id="story">
+            <p>
+                hopefully
+            </p>
+        </div>
+    </div>
+
+    <!--footnotes-->
+    <div id="footnotes">
+        <hr></hr>
+        <p>
+		<br></br>
+            Footnotes
+            <br></br>
+				1. 1. James L. Reveal, "Early Botanical Exploration and Discovery in the Northeast," in <em>Brooklyn Botanic Garden Guides for a Greener Planet: A Native Plants Reader,</em> ed. Niall Dunne (Brooklyn: Brooklyn Botanic Garden, 2012), 15.
+			<br></br>
+				<a href="bibliography.html">
+					Bibliography
+				</a>
+		</p>
+    </div>
+</body>
+</html>
+
+<!--<html>
+<head>
+<script type=“text/javascript”>
+
+function start_pos()
+{
+document.getElementById(“img”).style.top = ‘550px’;
+document.getElementById(“img”).style.left = ‘550px’
+}
+
+function right() //Moves image to the right
+
+{
+document.getElementById(“img”).style.top = ‘400px’;
+document.getElementById(“img”).style.left = ‘1000px’;
+}
+
+function left() //moves image to the left
+
+{
+document.getElementById(“img”).style.top = ‘0px’;
+document.getElementById(“img”).style.left = ‘0px’;
+}
+
+</script>
+</head>
+
+<body>
+
+<style>
+DIV.movable { position:absolute; TOP:550px; LEFT:550px; }
+</style>
+
+<div id=“img” class=“movable”><img src="your_picture.jpg "/></div <!image>
+
+<p>
+<button type=“button” onclick = “left()”>Image to the left!</button>
+<button type=“button” onclick = “start_pos()”>Reset imaget</button>
+<button type=“button” onclick = “right()”>image to the right!</button>
+</p>
+
+</body>
+</html>>

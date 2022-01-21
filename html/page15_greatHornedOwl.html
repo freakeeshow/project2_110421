@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Great Horned Owl</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <style>
+        body {
+            background: url("../media/backgrounds/merrick15.jpg") no-repeat fixed;
+            background-size: cover;
+        }
+    </style>
+    <script>
+    window.onload = function() {
+    var n = Math.floor(Math.random() * 3) + 1;
+                
+    document.getElementById("mushroom1").innerHTML = "<img src='../media/drawings/mushroom1/mushroom1_" + n + ".png'/>";
+
+    document.getElementById("mushroom2").innerHTML = "<img src='../media/drawings/mushroom2/mushroom2_" + n + ".png'/>";
+
+    document.getElementById("mushroom3").innerHTML = "<img src='../media/drawings/mushroom3/mushroom3_" + n + ".png'/>";
+    }
+    </script>
+</head>
+<body id="body">
+    <div id="wrapper">
+
+        <!--anchor-->
+        <div id="anchor">
+            <a href="#" onclick="history.back()">
+                <figure>
+				    <img src="../media/drawings/greatHornedOwl/greatHornedOwl_1.png" alt="great horned owl">
+    				    <figcaption>
+                            gets eaten by the
+    				    </figcaption>
+    		    </figure>
+            </a>
+        </div>
+
+        <!--images-->
+        <a id="mushroom1" href="bibliography.html"></a>
+
+        <a id="mushroom2" href="bibliography.html"></a>
+
+        <a id="mushroom3" href="bibliography.html"></a>
+
+        <!--narrative-->
+        <div id="story">
+            <p>
+                unknown
+            </p>
+        </div>
+    </div>
+
+    <!--footnotes-->
+    <div id="footnotes">
+        <hr></hr>
+        <p>
+			<br></br>
+            Footnotes
+            <br></br>
+                1. "The Great Horned Owl: Greatest Adirondack Predator?" Adirondack Almanack, written May 20, 2017, accessed October 2, 2021, https://www.adirondackalmanack.com/2014/05/the-great-horned-owl-greatest-adirondack-predator.html
+					<br></br>
+					<a href="bibliography.html">
+						Bibliography
+					</a>
+		</p>
+    </div>
+</body>
+</html>

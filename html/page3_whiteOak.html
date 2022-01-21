@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>White Oak</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <style>
+        body {
+            background: url("../media/backgrounds/merrick3.jpg") no-repeat fixed;
+            background-size: cover;
+        }
+    </style>
+    
+    <script>
+        window.onload = function() {
+        var n = Math.floor(Math.random() * 3) + 1;
+
+        document.getElementById("easternCottontail").innerHTML = "<img src='../media/drawings/easternCottontail/easternCottontail_" + n + ".png'/>";
+        
+        document.getElementById("northernCardinal").innerHTML = "<img src='../media/drawings/northernCardinal/northernCardinal_" + n + ".png'/>";
+
+        document.getElementById("graySquirrel").innerHTML = "<img src='../media/drawings/graySquirrel/graySquirrel_" + n + ".png'/>";
+
+        document.getElementById("dogDayCicada").innerHTML = "<img src='../media/drawings/dogDayCicada/dogDayCicada_" + n + ".png'/>";
+        }
+    </script>
+</head>
+<body id="body">
+    <div id="wrapper">
+
+        <!--anchor-->
+        <div id="anchor">
+            <a href="#" onclick="history.back()">
+                <figure>
+				    <img src="../media/drawings/whiteOak/whiteOak_1.png" alt="white oak">
+    				    <figcaption>
+                            gets eaten by the
+    				    </figcaption>
+    		    </figure>
+            </a>
+        </div>
+
+        <!--images-->
+        <a id="easternCottontail" href="page11_easternCottontail.html"></a>
+
+        <a id="northernCardinal" href="page6_northernCardinal.html"></a>
+
+        <a id="graySquirrel" href="page10_graySquirrel.html"></a>
+
+        <a id="dogDayCicada" href="page9_dogDayCicada.html"></a>
+
+        <!--narrative-->
+        <div id="story">
+            <p>
+                on the front lawn
+            </p>
+        </div>
+    </div>
+
+    <!--footnotes-->
+    <div id="footnotes">
+        <hr></hr>
+        <p>
+        <br></br>
+            Footnotes
+            <br></br>
+            1. Stein, John, Denise Binion and Robert Acciavatti, <em>Field Guide to Native Oak Species of Eastern North America</em> (Morgantown: USDA Forest Service, Forest Health Technology Enterprise Team, 2001), 8.
+            <br></br>
+                <a href="bibliography.html">
+                    Bibliography
+                </a>
+        </p>
+</div>
+</body>
+</html>

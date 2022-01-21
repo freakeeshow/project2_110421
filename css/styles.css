@@ -1,0 +1,117 @@
+/*this is consistent*/
+#body {
+    margin:0;
+    background-color: powderblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#wrapper {
+    margin:0 auto;
+    width:90%;
+}
+
+#wrapper a {
+    color:#000000;
+    text-decoration: underline;
+}
+
+#wrapper a:visited {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+#wrapper a:hover, #index_wrapper a:active {
+    color:crimson;
+}
+
+#anchor {
+    margin:0;
+    width:20%;
+    z-index:1;
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+
+#anchor img {
+    width:100%;
+}
+
+#footnotes {
+	padding:2%;
+    width:100%;
+	height:20%;
+	float:left;
+    background-color: powderblue;
+}
+
+#story {
+    margin:0;
+    z-index:1;
+    background-color:#000000;
+    text-align: right;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    border: 3px solid #73AD21;
+}
+
+#story p {
+    margin:0;
+    color:#ffffff;
+}
+
+/*this is the index*/
+#top {
+    width:100%;
+    height: 100px;
+}
+
+#sun {
+    height:70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mid {
+    width:100%;
+    background-color: powderblue;
+    height: 100px;
+}
+
+#rain {
+    width:100%;
+    height:100%;
+}
+
+#soil {
+    width:100%;
+    height: 50px;
+    background-color:saddlebrown;
+}
+
+/*this is page 1*/
+#nativePlantsDescription {
+    margin:0 auto;
+    width:60%;
+    height:600;
+    background-color:#ffffff;
+}
+
+/*this is botany*/
+#botanists {
+	width:100%;
+	height: 600px;
+}
+
+#botanists figure {
+	margin:0;
+	width:130px;
+	float:left;
+}
+
+#botanists img {
+	width:100%;
+	border-radius:25%;
+}

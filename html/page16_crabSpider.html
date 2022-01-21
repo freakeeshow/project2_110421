@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Crab Spider</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <style>
+        body {
+            background: url("../media/backgrounds/merrick16.jpg") no-repeat fixed;
+            background-size: cover;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+        var n = Math.floor(Math.random() * 3) + 1;
+                    
+        document.getElementById("northernCardinal").innerHTML = "<img src='../media/drawings/northernCardinal/northernCardinal_" + n + ".png'/>";
+    
+        document.getElementById("mockingbird").innerHTML = "<img src='../media/drawings/mockingbird/mockingbird_" + n + ".png'/>";
+    
+        document.getElementById("graySquirrel").innerHTML = "<img src='../media/drawings/mushroom3/graySquirrel_" + n + ".png'/>";
+        }
+        </script>
+</head>
+<body id="body">
+    <div id="wrapper">
+
+        <!--anchor-->
+        <div id="anchor">
+            <a href="#" onclick="history.back()">
+                <figure>
+				    <img src="../media/drawings/crabSpider/" alt="crab spider">
+    				    <figcaption>
+                            gets eaten by the
+    				    </figcaption>
+    		    </figure>
+            </a>
+        </div>
+
+        <!--images-->
+        <a id="northernCardinal" href="page6_northernCardinal.html"></a>
+
+        <a id="mockingbird" href="page8_mockingbird.html"></a>
+
+        <a id="graySquirrel" href="page10_graySquirrel.html"></a>
+
+        <!--narrative-->
+        <div id="story">
+            <p>
+                you're reminded
+            </p>
+        </div>
+    </div>
+
+    <!--footnotes-->
+    <div id="footnotes">
+        <hr></hr>
+        <p>
+            <br></br>
+            Footnotes
+            <br></br>
+                1. "Common Spiders of New York," New York State Department of Environmental Conservation, accessed October 2, 2021, https://www.dec.ny.gov/docs/wildlife_pdf/commonspiders.pdf
+                <br></br>
+                    <a href="bibliography.html">
+                        Bibliography
+                    </a>
+        </p>
+    </div>
+</body>
+</html>

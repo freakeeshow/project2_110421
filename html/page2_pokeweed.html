@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pokeweed</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <style>
+        body {
+            background: url("../media/backgrounds/merrick2.jpg") no-repeat fixed;
+            background-size: cover;
+        }
+   </style>
+   <script>
+        window.onload = function() {
+        var n = Math.floor(Math.random() * 3) + 1;
+
+        document.getElementById("dogDayCicada").innerHTML = "<img src='../media/drawings/dogDayCicada/dogDayCicada_" + n + ".png'/>";
+
+        document.getElementById("northernCardinal").innerHTML = "<img src='../media/drawings/northernCardinal/northernCardinal_" + n + ".png'/>";
+
+        document.getElementById("goldenNorthernBumblebee").innerHTML = "<img src='../media/drawings/goldenNorthernBumblebee/goldenNorthernBumblebee_" + n + ".png'/>";
+
+        document.getElementById("mourningDove").innerHTML = "<img src='../media/drawings/mourningDove/mourningDove_" + n + ".png'/>";
+
+        document.getElementById("mockingbird").innerHTML = "<img src='../media/drawings/mockingbird/mockingbird_" + n + ".png'/>";
+        }
+    </script>
+</head>
+<body id="body">
+    <div id="wrapper">
+
+        <!--anchor-->
+        <div id="anchor">
+            <a href="#" onclick="history.back()">
+                <figure>
+				    <img src="../media/drawings/pokeweed/pokeweed_1.png" alt="pokeweed">
+    				    <figcaption>
+                            gets eaten by the
+    				    </figcaption>
+    		    </figure>
+            </a>
+        </div>
+
+        <!--images-->
+        <a id="dogDayCicada" href="page9_dogDayCicada.html"></a>
+
+        <a id="northernCardinal" href="page6_northernCardinal.html"></a>
+
+        <a id="goldenNorthernBumblebee" href="page13_goldenNorthernBumblebee.html"></a>
+
+        <a id="mourningDove" href="page7_mourningDove.html"></a>
+
+        <a id="mockingbird" href="page8_mockingbird.html"></a>
+        
+        <!--narrative-->
+        <div id="story">
+            <p>
+                squeezing the juice between your fingers
+            </p>
+        </div>
+    </div>
+
+    <!--footnotes-->
+    <div id="footnotes">
+        <hr></hr>
+        <p>
+		    <br></br>
+            Footnotes
+            <br></br>
+			1. “Plant of the Week: American Pokeweed (Phytolacca americana L.),” Forest Service, United States Department of Agriculture, accessed September 25, 2021, https://www.fs.fed.us/wildflowers/plant-of-the-week/phytolacca_americana.shtml.
+            <br></br>
+                <a href="bibliography.html">
+					Bibliography
+				</a>
+		</p>
+    </div>
+</body>
+</html>

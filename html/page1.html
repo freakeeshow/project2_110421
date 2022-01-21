@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!--
+        this project prioritizes native plants due to their significance to the local and larger ecosystem. "invasive" plants have resulted in competition between plants for native resources as well as disrupted local food networks. the emergence of invavise plants in Merrick is a result of colonization/globalization and the creation of suburbs. there is natural plant migration, but these plants are successional--not invasive. invasive plants are ones that, "enter native ecosystems (usually with help from humans) and degrade them by competing with native species for resources..." (Sarah Reichard, "'Invasive Plants' and 'Weeds,'" BBG Guides for a Greener Planet: A Native Plants Reader, Brooklyn: Brooklyn Botanic Garden: 2012, 9.) The field of horticulture does not recognize plants that are dangerous to humans (ex: poison ivy) or weeds as invasive simply because they are undesirable by humans.
+    -->
+    
+<head>
+    <title>Plants</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <script src="../js/script.js"></script>
+    <style>
+        body {
+            background: url("../media/backgrounds/merrick1.jpg") no-repeat fixed;
+            background-size: cover;
+        }
+   </style>
+   <script>
+        window.onload = function() {
+	    var n = Math.floor(Math.random() * 3) + 1;
+	
+	    document.getElementById("pokeweed").innerHTML = "<img src='../media/drawings/pokeweed/pokeweed_" + n + ".png'/>";
+
+	    document.getElementById("mountainLaurel").innerHTML = "<img src='../media/drawings/mountainLaurel/mountainLaurel_" + n + ".png'/>";
+
+	    document.getElementById("whiteOak").innerHTML = "<img src='../media/drawings/whiteOak/whiteOak_" + n + ".png'/>";
+
+	    document.getElementById("littleBlustem").innerHTML = "<img src='../media/drawings/littleBluestem/littleBluestem_" + n + ".png'/>";
+        }
+    </script>
+</head>
+
+<body id="body">
+    <div id="wrapper">
+
+        <!--this is the anchor-->
+        <div id="anchor">
+            <a href="#" onclick="history.back()">
+                <figure>
+				    <img src="../media/elements.jpg" alt="the elements">
+    				    <figcaption>
+                            gets eaten by the
+    				    </figcaption>
+    		    </figure>
+            </a>
+        </div>
+
+        <!--images-->
+        <a id="pokeweed" href="page2_pokeweed.html">
+		</a>
+
+        <a id="mountainLaurel" href="page5_mountainLaurel.html">
+		</a>
+
+        <a id="whiteOak" href="page3_whiteOak.html">
+		</a>
+
+        <a id="littleBluestem" href="page4_littleBluestem.html">
+		</a>
+
+        <!--this is a description of native plants-->
+        <div id="nativePlantsDescription">
+            <h3>
+                <a href="native.html">native?</a>
+            </h3>
+            
+            <p>
+                <br></br>
+                    According to <a href="botany.html">botany,</a> native = 
+                        <blockquote>
+                            "...one that occurs in a particular region, ecosystem, and habitat without direct or indirect human actions. Species native to North America are generally recognized as those occurring on the continent prior to European settlement."<sup>1</sup>
+                        </blockquote>
+                        <hr></hr>
+                <br></br>
+            </p>
+        </div>
+
+        <!--this is the narrative-->
+        <div id="story">
+            <p>
+                walking
+            </p>
+        </div>
+    </div>
+
+    <!--footnotes-->
+    <div id="footnotes">
+        <hr></hr>
+            <p>
+            <br></br>
+            Footnotes
+            <br></br>
+            1. Niall Dunne, ""Defining 'Native Plant,'" in <em>Brooklyn Botanic Garden Guides for a Greener Planet: A Native Plants Reader,</em> ed. Niall Dunne (Brooklyn: Brooklyn Botanic Garden Inc., 2012), 7.
+            <br></br>
+            <a href="bibliography.html">
+                Bibliography
+            </a>
+            </p>
+    </div>
+</body>
+</html>

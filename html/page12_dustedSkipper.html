@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dusted Skipper</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <style>
+        body {
+            background: url("../media/backgrounds/merrick12.jpg") no-repeat fixed;
+            background-size: cover;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+        var n = Math.floor(Math.random() * 3) + 1;
+                
+        document.getElementById("crabSpider").innerHTML = "<img src='../media/drawings/crabSpider/crabSpider_" + n + ".png'/>";
+
+        document.getElementById("graySquirrel").innerHTML = "<img src='../media/drawings/graySquirrel/graySquirrel_" + n + ".png'/>";
+        }
+    </script>
+</head>
+<body id="body">
+    <div id="wrapper">
+
+        <!--anchor-->
+        <div id="anchor">
+            <a href="#" onclick="history.back()">
+                <figure>
+				    <img src="../media/drawings/dustedSkipper/dustedSkipper_1.png" alt="dusted skipper">
+    				    <figcaption>
+                            gets eaten by the
+    				    </figcaption>
+    		    </figure>
+            </a>
+        </div>
+
+        <!--images-->
+        <a id="crabSpider" href="page16_crabSpider.html"></a>
+
+        <a id="graySquirrel" href="page10_graySquirrel.html"></a>
+
+        <!--narrative-->
+        <div id="story">
+            <p>
+                fluttering
+            </p>
+        </div>
+    </div>
+
+    <!--footnotes-->
+    <div id="footnotes">
+        <hr></hr>
+        <p>
+			<br></br>
+            Footnotes
+            <br></br>
+                1. "Dusted Skipper: Atrytonopsis hianna," New York Natural Heritage Program, last updated December 20, 2007, accessed October 2, 2021, https://guides.nynhp.org/dusted-skipper/.
+				<br></br>
+				    <a href="bibliography.html">
+						Bibliography
+					</a>
+		</p>
+    </div>
+</body>
+</html>
